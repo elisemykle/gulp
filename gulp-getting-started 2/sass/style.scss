@@ -1,0 +1,15 @@
+/* Persistent comment here */
+// Non-persistent comment here
+$whatever: 24px; // Variable for font-size
+$red: #ff0000; // Variable for red color
+$green: #008800;
+body {
+    font-size: $whatever;
+}
+h1 {
+    color: $red;
+    padding-bottom: $whatever / 4;
+}
+p {
+    color: $green;
+}
